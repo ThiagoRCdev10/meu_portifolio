@@ -12,8 +12,8 @@ function adicionar(){
     <div class="item">
         <p class="descricao_item">${texto}</p>
         <div class="botoes">
-            <button class="btn_check" onclick="check(this)"><img src="imagens/check_icone.png" alt="check icone"></button>
-            <button class="btn_remover" onclick="remover(this)"><img src="imagens/remover_icone.png" alt="remover icone"></button>
+            <button class="btn_check" onclick="check(this)"><img src="../imagens/check_icone.png" alt="check icone"></button>
+            <button class="btn_remover" onclick="remover(this)"><img src="../imagens/remover_icone.png" alt="remover icone"></button>
         </div>
     </div>`;
     const pai = document.getElementById("container");
