@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;  
+}
+
+#container{
+    background-color: rgb(235, 223, 186);
+    margin: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    margin-bottom: 100px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#cadastro{
+    background-color: rgb(157, 157, 157);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 440px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#cadastro input{
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cadastro button{
+    background-color: rgb(18, 198, 222);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+#cadastro button:hover{
+    background-color: rgb(79, 230, 250);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+
+.item{
+    background-color: rgb(209, 209, 209);
+    border: 5px solid black;
+    width: 400px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.descricao_item{
+    font-size: 30px;
+}
+
+.btn_check{
+    background-color: rgba(50, 244, 50, 0.731);
+    border-radius: 12px;
+    padding: 4px;
+    transition: 0.2s;
+}
+
+.btn_check:hover{
+    background-color: rgba(105, 244, 105, 0.731);
+    transform: scale(1.1);
+}
+
+.btn_check img{
+    width: 40px;
+}
+
+.btn_remover{
+    background-color: rgba(254, 26, 26, 0.846);
+    border-radius: 12px;
+    padding: 4px;
+    transition: 0.2s;
+}
+
+.btn_remover:hover{
+    background-color: rgba(247, 58, 58, 0.846);
+    transform: scale(1.1);
+}
+
+.btn_remover img{
+    width: 40px;
+}

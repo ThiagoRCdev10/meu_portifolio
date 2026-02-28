@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_calculadora.css">
+    <title>App Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="calculadora">
+        <div id="display_calculadora"></div>
+        <div id="botoes_calculadora">
+            <button class="botoes_padrao" onclick="divisao()">/</button>
+            <button class="botoes_padrao" onclick="sete()">7</button>
+            <button class="botoes_padrao" onclick="oito()">8</button>
+            <button class="botoes_padrao" onclick="nove()">9</button>
+            <button class="botoes_padrao" onclick="multiplicacao()">*</button>
+            <button class="botoes_padrao" onclick="quatro()">4</button>
+            <button class="botoes_padrao" onclick="cinco()">5</button>
+            <button class="botoes_padrao" onclick="seis()">6</button>
+            <button class="botoes_padrao" onclick="menos()">-</button>
+            <button class="botoes_padrao" onclick="um()">1</button>
+            <button class="botoes_padrao" onclick="dois()">2</button>
+            <button class="botoes_padrao" onclick="tres()">3</button>
+            <button class="botoes_padrao" onclick="mais()">+</button>
+            <button class="botoes_padrao" onclick="del()" id="botao_del"><img src="imagens/backspace_icone.png" alt="backspace_icone"></button>
+            <button class="botoes_padrao" onclick="clear_display()" id="botao_clear">C</button>
+            <button class="botoes_padrao" onclick="zero()" id="botao_zero">0</button>
+            <button class="botoes_padrao" id="botao_igual" onclick="igual()">=</button>
+        </div>
+    </div>
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/expr-eval/1.2.1/bundle.min.js"></script>
+<script src="calculadora.js"></script>
+
+</body>
+</html>
