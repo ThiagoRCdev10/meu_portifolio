@@ -1,39 +1,29 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
-
-
-@media (min-width: 1500px) {
+@media (max-width: 650px) {
 
     body{
-        width: 100vw;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background: linear-gradient(to right, white 60%, rgb(31, 0, 170) 40%);
+        width: 100%;
+        background: linear-gradient(to bottom, white , rgb(31, 0, 170) );
+         min-height: 100vh;
     }
 
     header{
-        
-        grid-column-start: 1;
-        grid-column-end: 4;
         display: flex;
-        justify-content: start;
-        align-items: center;
-        height: 10vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 100px;
         background-color: rgb(2, 0, 24);
     }
 
     h1{
         font-family: "Tourney";
         font-weight: 900;
-        font-size: 50px;
+        font-size: 45px;
         font-style: normal;
         color: rgb(255, 255, 255);
-        margin: 20px;
+        margin-left: 12px;
+        padding: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -43,19 +33,16 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        margin-left: 40px;
     }
 
     .botoes_nav_bar{
         color: rgb(160, 160, 160);
-        padding: 10px;
-        margin: 10px;
-        width: auto;
-        height: 30px;
+        margin-top: 10px;
+        margin-left: 14px;
         display: flex;
         justify-content: center;
         align-items: center;  
-        font-size: 25px;
+        font-size: 12px;
         transition: 0.3s;
     }
 
@@ -74,40 +61,36 @@
     #apresentacao_texto1{
         margin: 0px;
         padding-top: 20px;
-        font-size: 10px;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: 30px;
-        
     }
 
     #apresentacao_texto2{
         margin: 0px;
-        padding-top: 20px;    
-        font-size: 10px;
+        padding-top: 10px;    
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: 60px; 
+        font-size: 40px; 
         color: rgb(0, 2, 136); 
     }
 
     #apresentacao_texto3{
         margin: 0px;
-        padding-top: 20px;  
-        font-size: 10px;
+        padding-top: 10px;  
         font-family: Arial, Helvetica, sans-serif;
         font-weight: normal;
-        font-size: 20px; 
+        font-size: 15px; 
         color: rgb(50, 50, 50);  
     }
 
     .botao_curriculo{
         background-color: rgb(31, 0, 170);
         color: white;
-        padding: 10px;
-        width: 150px;
-        height: 40px;
-        margin-top: 20px;
+        padding: 12px;
+        width: 100px;
+        height: 20px;
+        margin-top: 15px;
         transition: 0.3s;
         font-size: 25px;
         font-weight: bold;
@@ -121,12 +104,19 @@
         background-color: rgb(0, 121, 250);
         color: white;
         cursor: pointer;
-        transform: scale(1.4) translate(25px, 10px);
+        transform: scale(1.1) translate(15px, 5px);
+    }
+
+    .container_card{
+        margin-top: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .card {
-        width: 500px;
-        height: 500px;
+        width: 300px;
+        height: 300px;
         perspective: 1000px; /* importante para efeito 3D */
     }
 
@@ -166,7 +156,7 @@
     .card-back {
         background: white;
         color: black;
-        border: 2px solid black;
+        border: 1px solid black;
         transform: rotateY(180deg);
         display: flex;
         flex-direction: column;
@@ -182,10 +172,10 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 50px;
+        height: 30px;
     }
     .coteudo_card{
-        padding: 30px;
+        padding: 15px;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -193,26 +183,26 @@
     }
 
     .conteudo_card_linha1{
-        font-size: 25px;
+        font-size: 18px;
         color: rgb(255, 255, 255);
     }
 
     .conteudo_card_outras_linhas{
-        font-size: 18px;
+        font-size: 12px;
         color: rgb(50, 50, 50);
         margin-bottom: 10px;
     }
 
     .sessao_contatos{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        height: 350px;
+        height: 200px;
     }
 
     .botoes_contatos{
-        font-size: 30px;
+        font-size: 18px;
         color: rgb(255, 255, 255);
         margin: 20px;
         border: 2px solid rgb(255, 255, 255);
@@ -229,7 +219,6 @@
         transform: scale(1.2);
         cursor: pointer;
     }
-
 
     a{
         text-decoration: none;
